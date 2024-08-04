@@ -1,0 +1,11 @@
+#config.yml
+data_path: 'data/iris.csv'
+model_save_path: 'models/iris_model.pkl'
+random_state: 42
+test_size: 0.2
+target_variable: 'species'
+features:
+  - 'sepal_length'
+  - 'sepal_width'
+  - 'petal_length'
+  - 'petal_width'
